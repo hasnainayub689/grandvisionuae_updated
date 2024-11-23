@@ -1,16 +1,16 @@
 export const menuItems = [
-    {
-        title: 'Home',
-        links: [
-            { href: '/', label: 'Homepage 01', isCurrent: true },
-            //   { href: "/home-02", label: "Homepage 02" },
-            //   { href: "/home-03", label: "Homepage 03" },
-            //   { href: "/home-04", label: "Homepage 04" },
-            //   { href: "/home-05", label: "Homepage 05" },
-            //   { href: "/home-06", label: "Homepage 06" },
-        ],
-        isCurrent: true,
-    },
+    // {
+    //     title: 'Home',
+    //     links: [
+    //         { href: '/', label: 'Homepage 01', isCurrent: true },
+    //           { href: "/home-02", label: "Homepage 02" },
+    //           { href: "/home-03", label: "Homepage 03" },
+    //           { href: "/home-04", label: "Homepage 04" },
+    //           { href: "/home-05", label: "Homepage 05" },
+    //           { href: "/home-06", label: "Homepage 06" },
+    //     ],
+    //     isCurrent: true,
+    // },
     {
         title: 'Listing',
         links: [
@@ -19,6 +19,9 @@ export const menuItems = [
             // { href: '/topmap-grid', label: 'Find Topmap Grid' },
             // { href: '/topmap-list', label: 'Find Topmap List' },
             { href: '/sidebar-grid', label: 'Find Sidebar Grid' },
+            { href: '/sidebar', label: 'Buy' },
+            { href: '/sidebar', label: 'Rent' },
+            { href: '/sidebar', label: 'Off Plan' },
             // { href: '/sidebar-list', label: 'Find Sidebar List' },
         ],
     },
