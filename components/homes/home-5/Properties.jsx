@@ -177,7 +177,7 @@ export default function Properties() {
                                                         </span>
                                                     </div>
                                                     <h6 className="price">
-                                                        $
+                                                        AED
                                                         {property.price.toFixed(
                                                             2
                                                         )}
