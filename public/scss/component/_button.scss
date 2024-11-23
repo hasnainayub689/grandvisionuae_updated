@@ -31,6 +31,7 @@
         -o-transition: all 0.3s ease;
         transition: all 0.3s ease;
     }
+    
     svg {
         width: 20px;
         flex-shrink: 0;
@@ -63,6 +64,75 @@
         padding: 11px 40px;
     }
 }
+
+
+.tf-btn-whatsapp {
+    font-size: 16px;
+    line-height: 21.86px;
+    font-weight: 600;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    min-width: 162px;
+    min-height: 54px;
+    border-radius: 9999px;
+    background-color: $white;
+    color: $on-surface;
+    border: 1px solid $on-surface;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    svg path {
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+    
+    svg {
+        width: 20px;
+        flex-shrink: 0;
+    }
+    .icon {
+        font-size: 20px;
+        flex-shrink: 0;
+    }
+    &:hover {
+        background-color: $white;
+        color: $whatsapp;
+        border-color: $whatsapp;
+    }
+    &.primary {
+        background-color: $primary;
+        color: $white;
+        border-color: $primary;
+        &:hover {
+            background-color: $primary-hover;
+        }
+        .icon{
+            color: $white;
+        }
+    }
+    &.size-1 {
+        padding: 11px 36px;
+        min-width: 244px;
+    }
+    &.size-2 {
+        padding: 11px 40px;
+    }
+}
+
 
 .btn-read-more {
     font-size: 16px;

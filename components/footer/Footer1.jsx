@@ -74,9 +74,9 @@ export default function Footer1() {
                             <Link href={`/`}>
                                 <Image
                                     alt="logo"
-                                    width={166}
+                                    width={200}
                                     height={48}
-                                    src="/images/logo/logo-footer@2x.png"
+                                    src="/images/logo/logo@2x-white.png"
                                 />
                             </Link>
                         </div>
@@ -329,7 +329,7 @@ export default function Footer1() {
                                                 >
                                                     <path
                                                         d="M5.00044 9.99935L2.72461 2.60352C8.16867 4.18685 13.3024 6.68806 17.9046 9.99935C13.3027 13.3106 8.16921 15.8118 2.72544 17.3952L5.00044 9.99935ZM5.00044 9.99935H11.2504"
-                                                        stroke="#1563DF"
+                                                        stroke="#D1A303"
                                                         strokeWidth="1.5"
                                                         strokeLinecap="round"
                                                         strokeLinejoin="round"
