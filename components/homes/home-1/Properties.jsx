@@ -171,9 +171,15 @@ export default function Properties() {
                                                         </span>
                                                     </div>
                                                     <h6 className="price">
-                                                        AED
-                                                        {property.price.toFixed(
-                                                            2
+                                                        AED{' '}
+                                                        {Number(
+                                                            property.price
+                                                        ).toLocaleString(
+                                                            undefined,
+                                                            {
+                                                                minimumFractionDigits: 2,
+                                                                maximumFractionDigits: 2,
+                                                            }
                                                         )}
                                                     </h6>
                                                 </div>

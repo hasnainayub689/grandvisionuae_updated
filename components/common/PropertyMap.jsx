@@ -193,7 +193,7 @@ export default function PropertyMap() {
     const [getLocation, setLocation] = useState(null);
 
     const { isLoaded } = useLoadScript({
-        googleMapsApiKey: 'AIzaSyAAz77U5XQuEME6TpftaMdX0bBelQxXRlM',
+        googleMapsApiKey: 'AIzaSyDiCQpPBZKO9LtDoNB-mS0dnWcYrlhFZ8w',
     });
     const center = useMemo(
         () => ({ lat: 32.411201277163975, lng: -96.12394824867293 }),
