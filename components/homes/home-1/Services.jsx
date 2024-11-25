@@ -8,14 +8,14 @@ export default function Services() {
             <div className="container">
                 <div className="box-title text-center wow fadeInUp">
                     <div className="text-subtitle text-primary">
-                        Our Services
+                        The Most Trusted Real Estate Agency In Dubai
                     </div>
 
-                    <h3 className="mt-4 title">What We Do?</h3>
+                    <h3 className="mt-4 title">Get Your Investment Guides</h3>
                 </div>
 
                 <div>
-                    <Link href={`/sidebar-grid`} className="tf-btn btn-line">
+                    <Link href={`/guides`} className="tf-btn btn-line">
                         Free Download All Guides{' '}
                         <span className="icon icon-arrow-right2" />
                     </Link>

@@ -25,7 +25,7 @@ export default function Home() {
 
             <Locations />
 
-            <Benefit />
+            {/* <Benefit /> */}
             {/* <Properties2 /> */}
 
             <Testimonials />
