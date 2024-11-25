@@ -18,7 +18,7 @@ export const menuItems = [
             // { href: '/property-halfmap-list', label: 'Property Half Map List' },
             // { href: '/topmap-grid', label: 'Find Topmap Grid' },
             // { href: '/topmap-list', label: 'Find Topmap List' },
-            { href: '/sidebar-grid', label: 'Find Sidebar Grid' },
+
             { href: '/sidebar', label: 'Buy' },
             { href: '/sidebar', label: 'Rent' },
             { href: '/sidebar', label: 'Off Plan' },
