@@ -1019,23 +1019,23 @@
 }
 
 .overlay {
-  // .swiper-slide {
-  //     .box-location {
-  //         opacity: 0.4;
-  //         &:hover {
-  //             &::after {
-  //                 content: none;
-  //             }
-  //         }
-  //     }
-  // }
-  // .swiper-slide-prev,
-  // .swiper-slide-active,
-  // .swiper-slide-next {
-  //     .box-location {
-  //         opacity: 1;
-  //     }
-  // }
+  .swiper-slide {
+      .box-location {
+          opacity: 0.4;
+          &:hover {
+              &::after {
+                  content: none;
+              }
+          }
+      }
+  }
+  .swiper-slide-prev,
+  .swiper-slide-active,
+  .swiper-slide-next {
+      .box-location {
+          opacity: 1;
+      }
+  }
   .swiper-slide {
     position: relative;
   }
