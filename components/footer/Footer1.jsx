@@ -220,10 +220,14 @@ export default function Footer1() {
                                 <ul className="mt-12">
                                     <li className="mt-12 d-flex align-items-center gap-8">
                                         <i className="icon icon-mapPinLine fs-20 text-variant-2" />
-                                        <p className="text-white">
+                                        <a
+                                            className="text-white"
+                                            href="https://maps.app.goo.gl/RcoMDfZAb8UEpk6n8"
+                                            target="blank"
+                                        >
                                             1903 The Tower Plaza Hotel - Sheikh
                                             Zayed Rd - Dubai
-                                        </p>
+                                        </a>
                                     </li>
                                     <li className="mt-12 d-flex align-items-center gap-8">
                                         <i className="icon icon-phone2 fs-20 text-variant-2" />
@@ -236,9 +240,13 @@ export default function Footer1() {
                                     </li>
                                     <li className="mt-12 d-flex align-items-center gap-8">
                                         <i className="icon icon-mail fs-20 text-variant-2" />
-                                        <p className="text-white">
+                                        <a
+                                            href="mailto:info@grandvisionuae.com"
+                                            className="text-white"
+                                            target="blank"
+                                        >
                                             info@grandvisionuae.com
-                                        </p>
+                                        </a>
                                     </li>
                                 </ul>
                             </div>

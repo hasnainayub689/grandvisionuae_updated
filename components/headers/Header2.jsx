@@ -127,7 +127,7 @@ export default function Header2() {
                                                 strokeLinejoin="round"
                                             />
                                         </svg>
-                                        Submit Property
+                                        Whatsapp
                                     </Link>
                                 </div>
                             </div>
