@@ -20,13 +20,16 @@ export default function Home() {
         <>
             <Header1 />
             <Hero />
-            <Properties />
-            <Locations />
             <Services />
+            <Properties />
+
+            <Locations />
+
             <Benefit />
             {/* <Properties2 /> */}
+
             <Testimonials />
-            <Agents />
+            {/* <Agents /> */}
             <Brands />
             <Blogs />
             <Footer1 />
